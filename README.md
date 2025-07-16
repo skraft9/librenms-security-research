@@ -41,7 +41,7 @@ if (file_exists('includes/html/forms/' . $_POST['type'] . '.inc.php')) {
     include_once 'includes/html/forms/' . $_POST['type'] . '.inc.php';
 }
 ```
-This pattern introduces a latent Remote Code Execution (RCE) vector if an attacker can stage a file in this include path — for example, via symlink, development misconfiguration, or chained vulnerabilities.
+This pattern introduces a latent Remote Code Execution (RCE) vector if an attacker can stage a file in this include path via symlink, development misconfiguration, or chained vulnerabilities.
 
 >  This is not an arbitrary file upload bug. But it does provide a powerful execution sink for attackers with write access (direct or indirect) to the include directory.
 
