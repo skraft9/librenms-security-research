@@ -20,7 +20,7 @@
 
 #### Estimated Vector String: `CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H`
 
-#### Type: Authenticated Local File Inclusion
+#### Type: Remote PHP File Inclusion
 
 ---
 
