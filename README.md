@@ -32,7 +32,7 @@
 
 ## Summary
 
-LibreNMS 25.6.0 contains an architectural vulnerability in the `ajax_form.php` endpoint that permits Local File Inclusion (LFI) based on user-controlled POST input. 
+LibreNMS 25.6.0 contains an architectural vulnerability in the `ajax_form.php` endpoint that permits Remote File Inclusion based on user-controlled POST input. 
 
 The application directly uses the `type` parameter to dynamically include `.inc.php` files from the trusted path `includes/html/forms/`, without validation or allowlisting:
 
