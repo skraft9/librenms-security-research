@@ -1,4 +1,4 @@
-# Authenticated Local File Inclusion in `ajax_form.php` Allows RCE
+# Authenticated Remote File Inclusion in `ajax_form.php` Allows RCE
 
 #### CVE ID: Pending
 
