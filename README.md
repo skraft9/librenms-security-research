@@ -1,6 +1,6 @@
 # Authenticated Remote File Inclusion in `ajax_form.php` Allows RCE
 
-#### CVE ID: Pending
+#### CVE ID: CVE-2025-54138
 
 #### Date: 2025-07-16
 
